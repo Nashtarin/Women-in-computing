@@ -8,42 +8,53 @@
     display:flex;
     justify-content: space-between;
     
-    background-image: linear-gradient(purple,black);
+    background-image: linear-gradient(palegreen,seagreen,rgb(196, 196, 109));
 }
 .carousel-item img{
-    height: 300px;
+    height: 250px;
+}
+#header,#footer{
+    position: fixed;
+    width: 100%;
+}
+#header{
+    top: 0;
+}
+#footer{
+    bottom: 0;
 }
 /* Style of links in header */
 .links{
-    margin-left: 100px;
+    background-color: rgb(120, 148, 71);
 }
 .links a{
     text-decoration: none;
     margin:9px;
-    padding:5px;
-    color:rgb(92, 2, 92);
+    padding:19px;
+    color:rgb(233, 233, 94);
     font-weight: 700;
 }
 .links a:hover{
-    background-color: violet;
-    color: crimson;
+    background-color:rgba(137, 235, 137, 0.294);
+    color:teal;
     font-size: 17px;
-    border-radius: 30px;
+    border-radius: 40px;
 
 }
 h2{
-    color:purple;
+    color:darkgreen;
 }
 button{
-    background-image: linear-gradient(rgb(68, 2, 68),rgb(204, 55, 204),purple);
+    /* background-image: linear-gradient(rgb(68, 2, 68),rgb(204, 55, 204),purple); */
+    background-image: linear-gradient(palegreen,seagreen,rgb(196, 196, 109))
 }
 /* Style in contact page */
 .contact{
     display:grid;
     grid-template-columns: repeat(2,2fr);
 
-    border:1px solid purple;
-    background-color: palevioletred;
+    border:1px solid seagreen;
+    background-color: rgb(111, 233, 111);
     border-radius: 20px;
 }
 form input,textarea{
@@ -54,6 +65,24 @@ form input,textarea{
 a i{
     font-size: 60px;
     margin-right: 25px;
-    color:purple
+    color:olivedrab
 }
+/* Style for leading woman */
+.woman{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: .5px solid rgb(181, 192, 202);
+    
+}
+.w-img img{
+    height: 150px;
+    width:150px;
 
+}
+.w-detail{
+    margin-left: 40px;
+}
+.page{
+    margin-top: 350px;
+    margin-bottom: 70px;
+}
