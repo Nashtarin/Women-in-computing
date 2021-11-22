@@ -1,0 +1,59 @@
+/* Style of logo */
+.logo img{
+    height:70px;
+    width: 175px;
+    margin-inline: 30px;
+}
+.logo {
+    display:flex;
+    justify-content: space-between;
+    
+    background-image: linear-gradient(purple,black);
+}
+.carousel-item img{
+    height: 300px;
+}
+/* Style of links in header */
+.links{
+    margin-left: 100px;
+}
+.links a{
+    text-decoration: none;
+    margin:9px;
+    padding:5px;
+    color:rgb(92, 2, 92);
+    font-weight: 700;
+}
+.links a:hover{
+    background-color: violet;
+    color: crimson;
+    font-size: 17px;
+    border-radius: 30px;
+
+}
+h2{
+    color:purple;
+}
+button{
+    background-image: linear-gradient(rgb(68, 2, 68),rgb(204, 55, 204),purple);
+}
+/* Style in contact page */
+.contact{
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+
+    border:1px solid purple;
+    background-color: palevioletred;
+    border-radius: 20px;
+}
+form input,textarea{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+a i{
+    font-size: 60px;
+    margin-right: 25px;
+    color:purple
+}
+
