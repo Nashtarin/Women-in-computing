@@ -35,7 +35,7 @@
     font-weight: 700;
 }
 .links a:hover{
-    background-color:rgba(137, 235, 137, 0.294);
+    /* background-color:rgba(137, 235, 137, 0.294); */
     color:teal;
     font-size: 17px;
     border-radius: 40px;
